@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>06_img.html</title>
+</head>
+<body>
+
+<!-- img : 이미지를 페이지에 표시하기 위한 코드 -->
+<!-- 끝나는 태그가 없는 단일 테그이며, 이미지를 표시할지를 추가적으로 src 속성을 통해 기술합니다 -->
+<img src="./images/daumlogo.png" border = "1" />
+<h3>보더1</h3>
+<br/>
+<!-- 얘는 옛날 방식 -->
+
+<!-- img 태그에는 줄바꿈 기능이 없음 -->
+<img src="images/daumlogo.png" width="200" border="1"/>
+<h3>보더1, 가로200</h3>
+<br/>
+
+<!-- 현재폴더를 쓰지 않아도 항상 기준점은 현재폴더입니다 -->
+<img src="images/daumlogo.png" width="200" border="1"/>
+<h3>보더1, 가로200</h3>
+<br/>
+
+<img src="./naver.png" width="200" border="1"/>
+<h3>보더1, 가로200</h3>
+<br/>
+<!-- 같은 폴더에 있는 이미지 파일은 경로를 쓰지 않고 파일이름만 -->
+
+<!-- width와 height 중 하나만 조정하면 나머지 크기는 비율에 맞게 자동 조정됩니다 -->
+<!-- 비율을 생각하지 않고 width와 heigh 를 동시에 지정하면 원래 비율이 틀어져서 비율이 이상해질 수 있습니다 -->
+<img src="images/twiter.jpg" border="1" width="200"/>
+<h3>보더1, 가로200</h3>
+<br/>
+
+<img src="https://rereco.co/wp-content/uploads/2023/03/suzume-8.jpg"
+width="200" border="1"/>
+<br/>
+
+<!-- 인터넷의 이미 게시된 이미지의 URL을 얻는 방법 : 이미지 위해서 우클릭을 눌러서
+속성창을 열어서 이미지 주소 복사 메뉴를 이용하면 됩니다.
+다른 일부그림은 공개하지 않을 목적으로 URL을 분할하거나 우클릭을 누르지 못하게 하기도 합니다.
+그럴경우 화면 캡쳐이용 -->
+<img src="images/sto.png" width="200">
+<br/>
+
+<br/>
+<!-- 이미지의 URL이 맞지 않거나 해당 이미지가 이름이 틀리거나 실제 이미지가 존재하지 않아서
+이른바 엑박이 나올때 ..... 풍선도움말 형식의 안내문을 표시합니다 -->
+<img alt="그림이 존재하지 않습니다." src="images/abcd.jpg"><br/><br/>
+</body>
+</html>
